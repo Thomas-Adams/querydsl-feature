@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="querydsl-feature">
+    <feature name="querydsl-feature" description="querydsl-feature" version="1.0.0">
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:com.querydsl/querydsl-jpa/4.2.2</bundle>
+        <bundle>mvn:com.querydsl/querydsl-core/4.2.2</bundle>
+        <bundle>mvn:com.google.guava/guava/18.0</bundle>
+        <bundle>wrap:mvn:com.google.code.findbugs/jsr305/1.3.9</bundle>
+        <bundle>mvn:com.mysema.commons/mysema-commons-lang/0.2.4</bundle>
+        <bundle>wrap:mvn:com.infradna.tool/bridge-method-annotation/1.13</bundle>
+        <bundle>wrap:mvn:javax.inject/javax.inject/1</bundle>
+        <bundle>mvn:org.slf4j/slf4j-api/1.7.29</bundle>
+        <bundle>mvn:ch.qos.logback/logback-classic/1.2.3</bundle>
+        <bundle>mvn:ch.qos.logback/logback-core/1.2.3</bundle>
+    </feature>
+</features>
